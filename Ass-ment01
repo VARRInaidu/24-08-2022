@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{ 
+int t;
+printf("enter the no of test cases");
+scanf("%d",&t);
+while(t)
+{
+  t--;
+	int n;
+printf("enter the number ");
+ scanf("%d",&n);
+ int i,j,k;
+ for(i=n;i>=1;i--)
+{
+  for(j=n;j>=i;j--)
+    { 
+      printf("%d",j);
+    }
+   printf("\n");
+}
+}
+return 0;
+}
